@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# SpringBoot-Practice
-=======
 # SpringBoot Practice
 
 This repository contains multiple Spring Boot demo projects for hands-on learning and experimentation.
@@ -12,4 +9,3 @@ This repository contains multiple Spring Boot demo projects for hands-on learnin
 - `demo2` – JPA and H2 database example
 
 More demos will be added soon!
->>>>>>> 1a2e703 (Save local changes before pulling)
