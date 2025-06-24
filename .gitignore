@@ -1,0 +1,27 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Build
+/target/
+/build/
+/out/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.log
+
+# Maven
+.mvn/
+target/
+
+# Gradle
+.gradle/
+build/
+
+# VS Code
+.vscode/
