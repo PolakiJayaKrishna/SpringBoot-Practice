@@ -7,16 +7,15 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope("prototype")
 public class Student {
-
-    private long regNo;
+    private int regNo;
     private String name;
     private int marks;
 
-    public long getRegNo() {
+    public int getRegNo() {
         return regNo;
     }
 
-    public void setRegNo(long regNo) {
+    public void setRegNo(int regNo) {
         this.regNo = regNo;
     }
 
@@ -34,5 +33,14 @@ public class Student {
 
     public void setMarks(int marks) {
         this.marks = marks;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "regNo=" + regNo +
+                ", name='" + name + '\'' +
+                ", marks=" + marks +
+                '}';
     }
 }

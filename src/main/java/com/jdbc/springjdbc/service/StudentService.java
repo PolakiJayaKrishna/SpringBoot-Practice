@@ -1,5 +1,4 @@
-package com.jdbc.springjdbc.Service;
-
+package com.jdbc.springjdbc.service;
 
 import com.jdbc.springjdbc.Repo.StudentRepo;
 import com.jdbc.springjdbc.model.Student;
@@ -22,7 +21,7 @@ public class StudentService {
         this.repo = repo;
     }
 
-    public void addStudent(Student s){
+    public void addStudent(Student s) {
         repo.save(s);
     }
 
